@@ -1,0 +1,27 @@
+.features
+  text-align center
+  margin-top: 40px
+
+  &__list
+    display: flex
+    flex-wrap wrap
+    margin-top: 30px
+
+    &__item
+      box-sizing border-box
+      width 33%
+      padding: 30px
+      border 1px solid #C0C0C0
+      border-top none
+      border-left none
+      & > img
+        margin-top: 20px
+      &:nth-child(3n+3)
+        border-right none
+      &:nth-child(1n+4)
+        border-bottom none
+
+      &__title
+        margin-top: 10px
+      &__dec
+        padding 0 35px 0 35px
